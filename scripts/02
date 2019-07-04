@@ -1,0 +1,20 @@
+#!/bin/bash
+#get username active user
+#then remove this user
+
+echo "put in username"
+
+read USER
+
+file=( $(who | cut -d: -f1 ) )
+for i   in  "${file[@]}"
+do
+        if [ $i = $USER ]
+        then
+            userdel -f $USER
+            echo "active user removed"
+            exit
+        fi
+done
+echo "no active user found"
+

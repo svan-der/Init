@@ -1,0 +1,1 @@
+sudo route -n add -net intra.42.fr 46.19.122.85

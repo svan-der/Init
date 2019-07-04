@@ -1,0 +1,10 @@
+#!/bin/bash 
+#setting internal field seperator to ':'
+#
+while IFS=: read -r f1 f3 f6
+do 
+    echo "Login:        $f1"
+    echo "IUD:          $f3"
+    echo "Path:         $f6\n"
+
+done < /etc/passwd

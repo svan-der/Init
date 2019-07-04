@@ -1,0 +1,15 @@
+#!/bin/bash
+#git add, commit and push combined! 
+
+File=$1
+Message=$2
+git_acp()
+{
+   git add $File
+   git commit -m "$Message"
+   git push origin master
+}
+
+git_acp
+
+echo -ne '\n' "File added, committed and pushed"
