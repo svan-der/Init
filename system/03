@@ -1,1 +1,1 @@
-/etc/hostname
+The The hostname file needs to be modified to make the renaming of your system permanent, to be found in /etc/hostname
