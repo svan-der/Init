@@ -1,1 +1,2 @@
-sudo route -n add -net intra.42.fr 46.19.122.85
+as root navigate to the hosts file: /etc/hosts
+change the hostfile by adding ipaddress and the hostname intra.42.fr
