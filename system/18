@@ -1,1 +1,1 @@
-su killall sshd
+sudo killall sshd
