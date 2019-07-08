@@ -1,1 +1,3 @@
-hosts file
+#beter just /etc/hosts
+
+The hosts file contains the local DNS entries.
