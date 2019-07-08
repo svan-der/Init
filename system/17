@@ -1,1 +1,6 @@
+#always port forwarding first, before connection between vm and terminal can be made
+#settings->network->advanced->port forwarding
+#ssh -p (port) vmlogin@ipadress
+
 ssh <username>@<vm ip address>
+
