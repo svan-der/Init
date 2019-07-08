@@ -1,1 +1,3 @@
+#fout moet alleen nog default ip pakken
+
 netstat -r  
