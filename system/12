@@ -1,1 +1,3 @@
-du -h /var/
+#moet met '*' om alleen bestanden na path te laten zien
+
+du -h /var/* 
