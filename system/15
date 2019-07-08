@@ -1,1 +1,3 @@
+#find pid door ps –A | less en dan pid killen
+
 kill pid
