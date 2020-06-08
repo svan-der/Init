@@ -1,7 +1,7 @@
 # Init
 System and Network Administration project
 
-This is a threefold introduction project in system and network administration.
-1) system and network basic commands are listed
-2) uses of many services on the server machine were used and listed
-3) useful scripts for SysAdmins were made that can be used daily
+This my threefold introduction project in system and network administration.
+1) System and network basic commands are listed
+2) Uses of many services on the server machine are listed
+3) Useful daily scripts for SysAdmins are listed
